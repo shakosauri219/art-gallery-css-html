@@ -11,7 +11,7 @@ picture img {
     padding: 0px 16px;
 }
 
-.starter-div1 {
+.blackspace, .whitespace {
     display: none;
 }
 
@@ -281,9 +281,17 @@ footer p {
         height: auto;   
     }
 
+    .blackspace {
+        display: none;
+    }
+
     header picture {
         width: 56%;
         display: inline-block;
+    }
+
+    .whitespace {
+        display: none;
     }
 
     header {
@@ -293,10 +301,6 @@ footer p {
 
     main {
         padding: 0px 38px;
-    }
-
-    .starter-div1 {
-        display: none;
     }
 
     .starter-div {
@@ -411,10 +415,6 @@ footer p {
         height: 100%;
     }
 
-    .whitespace {
-
-    }
-
     .container {
         padding: 0px 165px;
         gap: 30px;
@@ -428,33 +428,35 @@ footer p {
         display: none;
     }
 
-    .starter-div1 {
+    .whitespace {
         display: flex;
-        padding: 0px 165px;
-        justify-content: space-between;
-        height: auto;
-        width: auto;
-        transform: translateY(-700px);
     }
 
-    .starter-div1 h1 {
+    .starter-little p {
+        margin-bottom: 64px;
+    }
+
+    .starter-little {
+        transform: translateX(-66px);
+    }
+
+    .blackspace {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blackspace h1 {
         font-family: Big Shoulders Display;
         font-size: 96px;
         font-weight: 900;
         line-height: 88px;
         letter-spacing: 0px;
-        text-align: left;
-        margin-left: 40px;
         mix-blend-mode: difference;
         color: white;
-    }
-
-    .starter-div1 p {
-        margin-bottom: 64px;
-    }
-
-    .starter-little1 {
-        width: 30%;
+        transform: translateX(200px);
+        width: auto;
+        width: 100%;
     }
 
     p {
